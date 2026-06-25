@@ -161,6 +161,7 @@ install.packages(c("Matrix", "data.table", "ggplot2", "plyr", "hdf5r"))
 - `*_stdata_aligned_counts_IDs.txt.gz` — genes × spots count matrix (TSV)
 - `*.tsv.annotations.tsv.gz` — spot annotations
 - `*_HE.jpg.gz` — H&E tissue image
+<img width="1066" height="872" alt="image" src="https://github.com/user-attachments/assets/58fc7231-b9bb-4807-b0e3-043e23a94645" />
 
 **Key issue:** Files are extracted flat (no subfolders), so samples are identified by filename prefix rather than directory.
 
@@ -276,6 +277,7 @@ for (i in seq_along(all_samples)) {
 ---
 
 ### Step 9 — Aggregate Results
+<img width="1013" height="873" alt="image" src="https://github.com/user-attachments/assets/b98f4b75-a683-4cbe-9f89-a4fdbda067d3" />
 
 **Purpose:** Read all 50 weight CSV files and compute the mean proportion of each spatial domain per slide. Save as a single summary CSV.
 
